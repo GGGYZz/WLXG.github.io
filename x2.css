@@ -1,0 +1,33 @@
+
+  div.under{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  div.wenzi
+  {
+    width:400px;
+    height: 700px;
+    position: static;
+    margin-left: 100px;
+  }
+  .more
+  {
+    font-size: 20px;
+    color:rgb(3,230,151)
+    }
+  a.more{text-decoration: underline;
+          color: white;}
+  a.more:hover {color:#8b0f06;} 
+  a.more:active {color:#0000FF;}
+  .one{
+    font-size: 100px;
+    color:white
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    }
+  

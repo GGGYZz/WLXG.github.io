@@ -1,0 +1,35 @@
+div.right{
+    display:flex;
+      flex-direction: column;
+      position:absolute;
+      left:280px;
+      margin-top: 50px;
+      width: 1200px;
+    }
+div.under{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height:6000px
+    }
+div.left{
+        width:200px;
+        height:6000px;
+        border-right: 2px solid rgb(3,230,151);
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+    }
+h2,h3,h4,h5{
+    color: white;
+    font-size: x-large;
+}
+p{
+    color:white;
+}
+h1{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
