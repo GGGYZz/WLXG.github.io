@@ -1,0 +1,54 @@
+#first {
+  position: absolute;
+  height: 610px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: 0.3s;
+  overflow: hidden;
+  transform: rotateY(0);
+}
+
+#second {
+  position: absolute;
+  height: 610px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 800px;
+}
+
+.bigbox {
+  display: flex;
+  flex-direction: column;
+  height: 1300px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  perspective: 900px;
+}
+
+#one {
+  flex-direction: column;
+  width: 400px;
+  background-color: black;
+}
+
+.p1 {
+  position: absolute;
+  top: 450px;
+  font-size: 50px;
+  margin: 0 auto;
+  color: rgb(3, 230, 151);
+}
+
+.p2 {
+  position: absolute;
+  top: 510px;
+  font-size: 25px;
+  margin: 0 auto;
+  color: rgb(3, 230, 151);
+}
