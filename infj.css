@@ -8,14 +8,7 @@ body{
     display: table;
 }
 
-.under {
-    display: flex;
-    flex-direction: row;
-    background-image: url("infj.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 50%;
-}
+
 div.left{
     width:200px;
     height:6000px;
