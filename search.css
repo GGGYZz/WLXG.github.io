@@ -1,14 +1,14 @@
 
   
   #myInput {
-    background-image: url('https://static.runoob.com/images/mix/searchicon.png'); /* 添加搜索按钮 */
-    background-position: 10px 12px; /* 定位搜索按钮 */
-    background-repeat: no-repeat; /* 图片不重复 */
-    width: 100%; /* 全屏幕显示 */
-    font-size: 16px; /* 字体大小 */
-    padding: 12px 20px 12px 40px; /* 设置内边距 */
-    border: 1px solid rgb(3,230,151); /* 添加灰色边框 */
-    margin-bottom: 12px; /* 添加顶部的外边距 */
+    background-image: url('https://static.runoob.com/images/mix/searchicon.png');
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px;
+    border: 1px solid rgb(3,230,151); 
+    margin-bottom: 12px; 
   }
    
   #myUL {
@@ -19,19 +19,19 @@
   }
    
   #myUL li a {
-    border: 1px solid rgb(3,230,151); /* 链接添加边框 */
-    margin-top: -1px; /* 防止边框重复 */
-    background-color: #f6f6f6; /* 设置灰色背景 */
-    padding: 12px; /* 添加内边距 */
-    text-decoration: none; /* 移除默认的下划线 */
-    font-size: 18px; /* 设置字体大小 */
-    color: black; /* 设置文本为黑色 */
-    display: block; /* 以块形式填充到列表 */
+    border: 1px solid rgb(3,230,151); 
+    margin-top: -1px; 
+    background-color: #f6f6f6; 
+    padding: 12px;
+    text-decoration: none; 
+    font-size: 18px; 
+    color: black; 
+    display: block; 
     width:450px;
   }
    
   #myUL li a:hover:not(.header) {
-    background-color: #eee; /* 为所有链接添加悬停效果，标题除外 */
+    background-color: #eee; 
   }
   .search{
     width:450px;
